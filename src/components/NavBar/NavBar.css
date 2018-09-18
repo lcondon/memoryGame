@@ -1,0 +1,29 @@
+.navbar .navBar-brand,
+.nav-link {
+  font-family: 'Merriweather', serif;
+  font-size: 20px !important;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  /* -webkit-text-stroke: 1px red; */
+}
+
+.navBar-brand {
+  color: rgba(228, 175, 175, 0.548);
+  animation-name: correct;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: paused;
+}
+
+@keyframes correct {
+  0% {
+    text-shadow: 6px 6px 10px red;
+  }
+  50% {
+    text-shadow: -6px -6px 10px red;
+  }
+  100% {
+    text-shadow: 6px 6px 10px red;
+  }
+}
