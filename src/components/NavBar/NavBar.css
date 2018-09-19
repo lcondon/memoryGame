@@ -1,14 +1,18 @@
 .navbar .navBar-brand,
 .nav-link {
   font-family: 'Merriweather', serif;
-  font-size: 20px !important;
   padding: 0.5rem 1rem;
   margin: 0;
   /* -webkit-text-stroke: 1px red; */
 }
 
+.nav-link {
+  font-size: 20px !important;
+}
+
 .navBar-brand {
   color: rgba(228, 175, 175, 0.548);
+  font-size: 28px !important;
   animation-name: correct;
   animation-duration: 2s;
   animation-iteration-count: infinite;
